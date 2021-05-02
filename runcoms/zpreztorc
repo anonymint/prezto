@@ -42,20 +42,14 @@ zstyle ':prezto:load' pmodule \
   'prompt' \
   'autosuggestions' \
   'completion' \
-  'git' \  
-
-#
-# My customer module setup 
-#  
-# autosuggesstions
-zstyle ':prezto:module:autosuggestions:color' found 'bg=none,fg=yellow'
+  'git'
 
 #
 # Autosuggestions
 #
 
 # Set the query found color.
-# zstyle ':prezto:module:autosuggestions:color' found ''
+zstyle ':prezto:module:autosuggestions:color' found 'bg=none,fg=yellow'
 
 #
 # Completions
@@ -126,7 +120,7 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt' theme 'powerlevel10k'
 
 # Set the working directory prompt display length.
 # By default, it is set to 'short'. Set it to 'long' (without '~' expansion)
