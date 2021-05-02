@@ -39,7 +39,16 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'history-substring-search' \
-  'prompt'
+  'prompt' \
+  'autosuggestions' \
+  'completetion' \
+  'git' \  
+
+#
+# My customer module setup 
+#  
+# autosuggesstions
+zstyle ':prezto:module:autosuggestions:color' found 'bg=none,fg=yellow'
 
 #
 # Autosuggestions
