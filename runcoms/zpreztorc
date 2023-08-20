@@ -37,6 +37,7 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'spectrum' \
   'utility' \
+  'rsync' \
   'completion' \
   'history-substring-search' \
   'syntax-highlighting' \
