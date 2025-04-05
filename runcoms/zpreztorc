@@ -38,9 +38,9 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'rsync' \
- 'completion' \
-  'history-substring-search' \
+  'completion' \
   'syntax-highlighting' \
+  'history-substring-search' \
   'prompt' \
   'autosuggestions' \
   'completion' \
